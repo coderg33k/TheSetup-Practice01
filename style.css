@@ -619,11 +619,29 @@ textarea {
 --------------------------------------------------------------*/
 /* Navigation
 --------------------------------------------- */
+.site-header {
+  height: 70px;
+  width: 100%;
+  background-color: #ffd504;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.site-header .site-branding {
+  float: left;
+  margin: 5px 15px;
+  height: 60px;
+  width: 60px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
 .main-navigation {
   display: block;
   width: 100%;
 }
 .main-navigation ul {
+  float: right;
   display: none;
   list-style: none;
   margin: 0;
@@ -658,6 +676,12 @@ textarea {
 .main-navigation a {
   display: block;
   text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  padding: 23px 30px;
+}
+.main-navigation a:hover {
+  background-color: brown;
 }
 /* Small menu. */
 .menu-toggle,
