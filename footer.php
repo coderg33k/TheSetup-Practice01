@@ -11,22 +11,34 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'thesetup-practice01' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'thesetup-practice01' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'thesetup-practice01' ), 'thesetup-practice01', '<a href="http://danielhanna.com">Daniel Hanna</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+
+
+<footer>
+
+
+    
+    <div class="try-app">
+        <h1 class="hhead2">HERE IS WHERE THE BODY GOES !!!</h1>
+        
+    </div>
+
+    <div class="footer">
+        <div class="grid-container">
+				<div class="grid-item item1"><a class="cont" href="http://thesetuppractice01.local/" target="_blank">Home</a></div>
+                <div class="grid-item item2"></div>
+                <div class="grid-item item3"></div>
+                <div class="grid-item item4"><a class="cont" href="http://thesetuppractice01.local/about/" target="_blank">About</a></div>
+                <div class="grid-item item5"></div>
+            	<div class="grid-item item6"></div>
+				<div class="grid-item item7"><a class="cont" href="http://thesetuppractice01.local/contact/" target="_blank">Contact</a></div>
+                <div class="grid-item item8">&#169; Robo Coder 2022</div>
+            	<div class="grid-item item9"></div>  
+        </div>
+    </div>
+
+
+	</footer>
+</div>
 
 <?php wp_footer(); ?>
 

@@ -720,15 +720,113 @@ textarea {
   flex: 1 0 50%;
 }
 
+/* App Section begins here */
+.try-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+
+.hhead2 {
+  font-size: 3vw;
+}
+
+.footer {
+  height: 135px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffd504;
+  color: blue;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  gap: 0.5px;
+  padding: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.item1 {
+  grid-column: 1/span 1;
+  grid-row: 1;
+  text-align: left;
+}
+
+.item2 {
+  grid-column: 2;
+  grid-row: 1/span 1;
+  margin-top: 10px;
+}
+
+.item3 {
+  grid-column: 3;
+  grid-row: 1/span 1;
+  text-align: center;
+}
+
+.item4 {
+  grid-column: 1;
+  grid-row: 2/span 1;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.cont {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.cont:hover {
+  color: #a3a0a0;
+}
+
+.item5 {
+  grid-column: 2/span 1;
+  grid-row: 2;
+}
+
+.item6 {
+  grid-column: 3;
+  grid-row: 2/span 1;
+  text-align: center;
+  margin-left: 38px;
+}
+
+.item7 {
+  grid-column: 1;
+  grid-row: 3/span 1;
+  text-align: left;
+}
+
+.item8 {
+  grid-column: 2;
+  grid-row: 3/span 1;
+  text-align: center;
+}
+
+.item9 {
+  grid-column: 3;
+  grid-row: 3/span 1;
+  text-align: left;
+}
+
 /* Posts and pages
 --------------------------------------------- */
 .sticky {
   display: block;
-}
-
-.post,
-.page {
-  margin: 0 0 1.5em;
 }
 
 .updated:not(.published) {
