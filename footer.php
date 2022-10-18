@@ -17,10 +17,10 @@
 
 
     
-    <div class="try-app">
-        <h1 class="hhead2">HERE IS WHERE THE BODY GOES !!!</h1>
+    <!-- <div class="try-app">
+     
         
-    </div>
+    </div> -->
 
     <div class="footer">
         <div class="grid-container">

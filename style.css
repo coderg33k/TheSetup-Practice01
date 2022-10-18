@@ -844,6 +844,52 @@ textarea {
   margin: 0 0 1.5em;
 }
 
+.HeroSection {
+  height: 700px;
+  width: 100%;
+  background-color: cadetblue;
+  position: center;
+}
+.HeroSection img {
+  width: 100%;
+  height: 700px;
+}
+
+.heroshape {
+  height: 350px;
+  width: 700px;
+  background-color: #60dfcd;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.herotextbox {
+  height: 375px;
+  width: 600px;
+  background-color: black;
+  position: absolute;
+  padding: 10px;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffd504;
+}
+.herotextbox h1 {
+  font-size: 35px;
+}
+.herotextbox p {
+  padding: 10px 30px;
+}
+.herotextbox button {
+  color: #ffd504;
+  background-color: black;
+  border-color: #ffd504;
+  padding: 13px;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
